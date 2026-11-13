@@ -11,3 +11,5 @@ end
 
 load("core.options")
 load("core.keymaps")
+load("core.extensions")
+

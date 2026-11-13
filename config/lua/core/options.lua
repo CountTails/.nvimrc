@@ -7,7 +7,7 @@
 -- Filetype detection, plugins, colors, and syntax highlighting
 vim.cmd("filetype plugin indent on")
 vim.cmd("syntax on")
-vim.opt.termguicolors = false
+vim.opt.termguicolors = true
 vim.cmd.colorscheme("vim")
 
 -- Line numbers and cursor highlighting

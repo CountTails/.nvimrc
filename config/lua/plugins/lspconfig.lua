@@ -7,7 +7,16 @@
 require("nvchad.configs.lspconfig").defaults()
 
 local function init()
-    local servers = { "html", "cssls" }
+    local servers = {
+      "html",
+      "cssls",
+      "eslint",
+      "pylsp",
+      "stylua",
+      "bashls",
+      "jsonls",
+      "yamlls"
+    }
     vim.lsp.enable(servers)
 end
 
@@ -15,5 +24,3 @@ return {
     "neovim/nvim-lspconfig",
     config = init
 }
-
-

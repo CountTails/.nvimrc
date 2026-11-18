@@ -4,9 +4,9 @@
 -- PURPOSE: specify the installation and setup information for the mini plugin colection
 
 return {
-    require("configs.conform"),
-    require("configs.lsp"),
-    require("configs.blink"),
-    require("configs.treesitter"),
+    require("plugins.conform"),
+    require("plugins.lspconfig"),
+    require("plugins.blink"),
+    require("plugins.treesitter"),
 }
 
